@@ -8,3 +8,7 @@
 
 .ml-2 { margin-left: 2rem !important; }
 .ml-4 { margin-left: 4rem !important; }
+
+.goals--img {
+    width: 35rem;
+}
