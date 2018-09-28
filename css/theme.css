@@ -6251,10 +6251,14 @@ a.block:hover > .feature {
   }
   .feature.feature-8 {
     margin-bottom: 0;
+
   }
 }
 .feature-8 img {
   max-height: 14.85714286em;
+  border-radius: 50%;
+  box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+
 }
 .feature-9 h4 {
   margin: 0;
