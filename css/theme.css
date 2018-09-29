@@ -249,7 +249,7 @@ body {
 .float-right {
   float: right;
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   .float-left,
   .float-right {
     float: none;
@@ -3698,7 +3698,7 @@ section.unpad--top {
 /**! 42. Theme Overrides **/
 /*! -- Stack Customizers -- */
 .box-shadow {
-  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);`
 }
 .box-shadow-shallow {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
