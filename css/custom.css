@@ -1,1 +1,11 @@
 /*! Place your custom styles here */
+#size{
+     width: 70%;
+}
+#size-btn{
+  width: 20%;
+  height: 50%;
+  margin-left: 40%;
+  margin-top: 5%;
+  line-height: 2.5em;
+}
