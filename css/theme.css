@@ -136,6 +136,11 @@ h6,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
   }
+
+  #size{
+    margin-left: 0 !important;
+
+  }
   h2,
   .h2 {
     font-size: 1.78571429em;
@@ -250,6 +255,11 @@ body {
   float: right;
 }
 @media all and (max-width: 768px) {
+  #size{
+    margin-left: 0 !important;
+
+  }
+
   .float-left,
   .float-right {
     float: none;
@@ -292,6 +302,10 @@ body {
   vertical-align: middle;
 }
 @media all and (max-width: 990px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .pos-vertical-align-columns {
     display: block;
     width: auto;
@@ -307,6 +321,10 @@ body {
   display: block;
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .block--xs {
     display: block;
   }
@@ -323,6 +341,10 @@ body {
   }
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .text-center-xs {
     text-align: center;
   }
