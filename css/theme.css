@@ -136,6 +136,11 @@ h6,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
   }
+
+  #size{
+    margin-left: 0 !important;
+
+  }
   h2,
   .h2 {
     font-size: 1.78571429em;
@@ -154,6 +159,16 @@ h6,
     height: 320px !important;
   }
 }
+/* logo */
+#logoCenter {
+left: 43.5% !important;
+clear: both !important;
+position: fixed !important;
+top: 18px !important;
+
+}
+/* logoend */
+
 p,
 ul,
 ol,
@@ -258,6 +273,11 @@ body {
   float: right;
 }
 @media all and (max-width: 768px) {
+  #size{
+    margin-left: 0 !important;
+
+  }
+
   .float-left,
   .float-right {
     float: none;
@@ -300,6 +320,10 @@ body {
   vertical-align: middle;
 }
 @media all and (max-width: 990px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .pos-vertical-align-columns {
     display: block;
     width: auto;
@@ -307,6 +331,7 @@ body {
   .pos-vertical-align-columns > div[class*='col-'] {
     display: block;
   }
+
 }
 .inline-block {
   display: inline-block;
@@ -315,6 +340,10 @@ body {
   display: block;
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .block--xs {
     display: block;
   }
@@ -329,8 +358,13 @@ body {
   .text-right-md {
     text-align: right;
   }
+
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .text-center-xs {
     text-align: center;
   }
@@ -1211,6 +1245,9 @@ ul:last-child {
     width: 100%;
     content: '';
     display: block;
+  }
+  #logoCenter{
+    margin-left: 2em !important;
   }
   .dropdown .dropdown__content.dropdown__content--md {
     padding: 2.78571429em;
@@ -3197,7 +3234,7 @@ form[action*='list-manage.com'] .small-meta {
 .bar .logo {
   margin: 0;
   position: relative;
-  top: 4px;
+  
 }
 .bar .menu-horizontal {
   position: relative;
@@ -4758,7 +4795,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 1.85714286em;
+  max-height: 34.2px;
   max-width: none;
 }
 .menu-horizontal > li > a,
