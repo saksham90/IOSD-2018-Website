@@ -159,6 +159,16 @@ h6,
     height: 320px !important;
   }
 }
+/* logo */
+#logoCenter {
+left: 43.5% !important;
+clear: both !important;
+position: fixed !important;
+top: 18px !important;
+
+}
+/* logoend */
+
 p,
 ul,
 ol,
@@ -321,6 +331,7 @@ body {
   .pos-vertical-align-columns > div[class*='col-'] {
     display: block;
   }
+
 }
 .inline-block {
   display: inline-block;
@@ -347,6 +358,7 @@ body {
   .text-right-md {
     text-align: right;
   }
+
 }
 @media all and (max-width: 767px) {
   #size{
@@ -1233,6 +1245,9 @@ ul:last-child {
     width: 100%;
     content: '';
     display: block;
+  }
+  #logoCenter{
+    margin-left: 2em !important;
   }
   .dropdown .dropdown__content.dropdown__content--md {
     padding: 2.78571429em;
@@ -3219,7 +3234,7 @@ form[action*='list-manage.com'] .small-meta {
 .bar .logo {
   margin: 0;
   position: relative;
-  top: 4px;
+  
 }
 .bar .menu-horizontal {
   position: relative;
@@ -4780,7 +4795,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 1.85714286em;
+  max-height: 34.2px;
   max-width: none;
 }
 .menu-horizontal > li > a,
