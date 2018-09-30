@@ -136,6 +136,11 @@ h6,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
   }
+
+  #size{
+    margin-left: 0 !important;
+
+  }
   h2,
   .h2 {
     font-size: 1.78571429em;
@@ -150,7 +155,20 @@ h6,
     font-size: 1.35714286em;
     line-height: 1.36842105em;
   }
+  .nav-container{
+    height: 320px !important;
+  }
 }
+/* logo */
+#logoCenter {
+left: 43.5% !important;
+clear: both !important;
+position: fixed !important;
+top: 18px !important;
+
+}
+/* logoend */
+
 p,
 ul,
 ol,
@@ -181,6 +199,11 @@ blockquote {
 strong {
   font-weight: 600;
 }
+
+.bar {
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
 hr {
   margin: 1.85714286em 0;
   border-color: #fafafa;
@@ -250,6 +273,11 @@ body {
   float: right;
 }
 @media all and (max-width: 768px) {
+  #size{
+    margin-left: 0 !important;
+
+  }
+
   .float-left,
   .float-right {
     float: none;
@@ -292,6 +320,10 @@ body {
   vertical-align: middle;
 }
 @media all and (max-width: 990px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .pos-vertical-align-columns {
     display: block;
     width: auto;
@@ -299,6 +331,7 @@ body {
   .pos-vertical-align-columns > div[class*='col-'] {
     display: block;
   }
+
 }
 .inline-block {
   display: inline-block;
@@ -307,6 +340,10 @@ body {
   display: block;
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .block--xs {
     display: block;
   }
@@ -321,8 +358,13 @@ body {
   .text-right-md {
     text-align: right;
   }
+
 }
 @media all and (max-width: 767px) {
+  #size{
+    margin-left: 18% !important;
+
+  }
   .text-center-xs {
     text-align: center;
   }
@@ -1203,6 +1245,9 @@ ul:last-child {
     width: 100%;
     content: '';
     display: block;
+  }
+  #logoCenter{
+    margin-left: 2em !important;
   }
   .dropdown .dropdown__content.dropdown__content--md {
     padding: 2.78571429em;
@@ -3189,7 +3234,7 @@ form[action*='list-manage.com'] .small-meta {
 .bar .logo {
   margin: 0;
   position: relative;
-  top: 4px;
+  
 }
 .bar .menu-horizontal {
   position: relative;
@@ -3677,7 +3722,7 @@ section.unpad--top {
   color: #4a90e2;
 }
 .alert.alert--dismissed {
-  display: none;
+  
 }
 /**! 41. Progress - Horizontal **/
 .progress-horizontal:after {
@@ -3801,7 +3846,7 @@ body.boxed-layout .modal-container section:not([class*='bg-']) {
   -ms-overflow-style: none;
 }
 .disable-scroll-bars::-webkit-scrollbar {
-  display: none;
+  
 }
 /*! -- Stack Animations -- */
 @keyframes fadeInUp {
@@ -4750,7 +4795,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 1.85714286em;
+  max-height: 34.2px;
   max-width: none;
 }
 .menu-horizontal > li > a,
@@ -4830,7 +4875,7 @@ section.parallax .row .background-image-holder {
 }
 @media all and (max-width: 767px) {
   .bar-4 .logo-light {
-    display: none;
+    
   }
   .bar-4 .logo-dark {
     margin-bottom: 1.85714286em;
@@ -4844,14 +4889,13 @@ section.parallax .row .background-image-holder {
 }
 /*! -- Stack Utilties -- */
 .hidden {
-  display: none !important;
-  visibility: hidden !important;
+  
 }
 .visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
-  display: none !important;
+ 
 }
 .visible-xs-block,
 .visible-xs-inline,
@@ -4865,7 +4909,7 @@ section.parallax .row .background-image-holder {
 .visible-lg-block,
 .visible-lg-inline,
 .visible-lg-inline-block {
-  display: none !important;
+  
 }
 @media (max-width: 767px) {
   .visible-xs {
@@ -5008,7 +5052,7 @@ section.parallax .row .background-image-holder {
   }
 }
 .visible-print {
-  display: none !important;
+ 
 }
 @media print {
   .visible-print {
@@ -5026,7 +5070,7 @@ section.parallax .row .background-image-holder {
   }
 }
 .visible-print-block {
-  display: none !important;
+  
 }
 @media print {
   .visible-print-block {
@@ -5034,7 +5078,7 @@ section.parallax .row .background-image-holder {
   }
 }
 .visible-print-inline {
-  display: none !important;
+  
 }
 @media print {
   .visible-print-inline {
@@ -5042,7 +5086,7 @@ section.parallax .row .background-image-holder {
   }
 }
 .visible-print-inline-block {
-  display: none !important;
+  
 }
 @media print {
   .visible-print-inline-block {
@@ -5051,7 +5095,7 @@ section.parallax .row .background-image-holder {
 }
 @media print {
   .hidden-print {
-    display: none !important;
+   
   }
 }
 .text-left {
@@ -5257,7 +5301,7 @@ section.parallax .row .background-image-holder {
   border-right: 1px solid #3f3f3f;
 }
 .nav-sidebar-column::-webkit-scrollbar {
-  display: none;
+  
 }
 .nav-sidebar-column .logo {
   max-height: 2.32142857em;
@@ -5294,7 +5338,7 @@ section.parallax .row .background-image-holder {
   right: 1.85714286em;
 }
 .nav-sidebar-column .dropdown:not(.dropdown--active) .dropdown__container {
-  display: none;
+  
 }
 .nav-sidebar-column .dropdown.dropdown--hover:hover > .dropdown__container {
   display: block;
