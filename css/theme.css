@@ -155,18 +155,18 @@ h6,
     font-size: 1.35714286em;
     line-height: 1.36842105em;
   }
-  .nav-container{
-    height: 320px !important;
-  }
+  /*.nav-container{*/
+    /*height: 320px !important;*/
+  /*}*/
 }
 /* logo */
-#logoCenter {
-left: 43.5% !important;
-clear: both !important;
-position: fixed !important;
-top: 18px !important;
+/*#logoCenter {*/
+/*left: 43.5% !important;*/
+/*clear: both !important;*/
+/*position: fixed !important;*/
+/*top: 18px !important;*/
 
-}
+/*}*/
 /* logoend */
 
 p,
@@ -1246,9 +1246,9 @@ ul:last-child {
     content: '';
     display: block;
   }
-  #logoCenter{
-    margin-left: 2em !important;
-  }
+  /*#logoCenter{*/
+    /*margin-left: 2em !important;*/
+  /*}*/
   .dropdown .dropdown__content.dropdown__content--md {
     padding: 2.78571429em;
   }
@@ -4889,13 +4889,14 @@ section.parallax .row .background-image-holder {
 }
 /*! -- Stack Utilties -- */
 .hidden {
-  
+  display: none !important;
+  visibility: hidden !important;
 }
 .visible-xs,
 .visible-sm,
 .visible-md,
 .visible-lg {
- 
+  display: none !important;
 }
 .visible-xs-block,
 .visible-xs-inline,
@@ -4909,7 +4910,7 @@ section.parallax .row .background-image-holder {
 .visible-lg-block,
 .visible-lg-inline,
 .visible-lg-inline-block {
-  
+  display: none !important;
 }
 @media (max-width: 767px) {
   .visible-xs {
@@ -5033,26 +5034,26 @@ section.parallax .row .background-image-holder {
 }
 @media (max-width: 767px) {
   .hidden-xs {
-   
+    display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
-   
+    display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
-   
+    display: none !important;
   }
 }
 @media (min-width: 1200px) {
   .hidden-lg {
-
+    display: none !important;
   }
 }
 .visible-print {
- 
+  display: none !important;
 }
 @media print {
   .visible-print {
