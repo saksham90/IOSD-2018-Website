@@ -17,6 +17,8 @@
     <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="css/font-rubiklato.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
@@ -26,15 +28,15 @@
 
 <body class=" ">
 
-    <div class="nav-container">
-        <nav id="menu1" class="bar  bar-1 bg--white hidden-xs bar--absolute" data-scroll-class="100px:pos-fixed" style="position: fixed;">    <div class="container">
-<!--=======
-    <div class="nav-container sticky-top">
-        <nav id="menu1" class="bar  bar-1 bg--white hidden-xs bar--absolute" data-scroll-class="100px:pos-fixed" >    <div class="container">
-master-->
+    <div class="nav-container sticky-top" >
+        <div class="search header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+        <nav id="menu1" class="bar  bar-1 bg--white hidden-xs bar--absolute collapse sticky-top" data-scroll-class="100px:pos-fixed" >
+
+
+    <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 text-left text-left-xs text-left-sm">
-                        <div class="bar__module">
+                        <div class="bar__module collapse">
                             <ul class="menu-horizontal text-left">
                                 <li class="dropdown">
                                     <span class="dropdown__trigger">About</span>
@@ -43,20 +45,26 @@ master-->
                                             <div class="row">
                                                 <div class="dropdown__content col-lg-2 col-md-4">
                                                     <ul class="menu-vertical">
+                                                        
                                                         <li>
+                                                            <i class="fa fa-angle-right"></i>
                                                             <a href="mission.html">Mission & Vision</a>
                                                         </li>
                                                         <li>
+                                                            <i class="fa fa-angle-right"></i>
                                                             <a href="core-values.html">Core Values</a>
                                                         </li>
-                                                        <li>
+                                                        <li><i class="fa fa-angle-right"></i>
                                                             <a href="timeline.html">Timeline</a>
                                                         </li>
-                                                        <li>
+                                                        <li><i class="fa fa-angle-right"></i>
                                                             <a href="leadership.html">IOSD Leadership</a>
                                                         </li>
-                                                        <li>
-                                                            <a href="#">Goals 2K15-2K20</a>
+                                                        <li><i class="fa fa-angle-right"></i>
+                                                            <a href="goals.html">Student Chapter Goals </a>
+                                                        </li>
+                                                        <li><i class="fa fa-angle-right"></i>
+                                                            <a href="ourPartners.html">Our Partners</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -76,28 +84,30 @@ master-->
                                                 <div class="dropdown__content col-lg-3 col-md-5">
                                                     <ul class="menu-vertical">
                                                         <li class="dropdown">
-                                                            <span class="dropdown__trigger">Iosd Membership benefits</span>
+                                                            <span class="dropdown__trigger">
+                                        <i class="fa fa-angle-right"></i>
+                                                            Iosd Membership benefits</span>
                                                             <div class="dropdown__container">
                                                                 <div class="container">
                                                                     <div class="row">
-                                                                        <div class="dropdown__content col-lg-3">
+                                                                        <div class="dropdown__content col-lg-3 col-sm-3">
                                                                             <ul class="menu-vertical">
-                                                                                <li>
+                                                                                <li><i class="fa fa-angle-right"></i>
                                                                                     <a href="benefits-overview.html">
                                                                                         Overview
                                                                                     </a>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li><i class="fa fa-angle-right"></i>
                                                                                     <a href="activites.html">
                                                                                         Activites
                                                                                     </a>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li><i class="fa fa-angle-right"></i>
                                                                                     <a href="discounts.html">
                                                                                         Exclusive discounts and Freebies
                                                                                     </a>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li><i class="fa fa-angle-right"></i>
                                                                                     <a href="exclusive-initiatives.html">
                                                                                         Exclusive Initiative
                                                                                     </a>
@@ -112,12 +122,16 @@ master-->
                                                             </div>
                                                             <!--end dropdown container-->
                                                         </li>
-                                                        <li>
+                                                        <li><i class="fa fa-angle-right"></i>
                                                             <a href="eresource-learning.html">E resources portal</a>
                                                         </li>
-                                                        <li>
+                                                        <li><i class="fa fa-angle-right"></i>
                                                             <a href="https://iosd.tech/registrations/">Join IOSD</a>
                                                         </li>
+                                                        <li><i class="fa fa-angle-right"></i>
+                                                            <a href="studentChapter.html">Create Iosd Student Chapter</a>
+                                                        </li>
+                                                        
                                                     </ul>
                                                 </div>
                                                 <!--end dropdown content-->
@@ -144,7 +158,7 @@ master-->
                     </div>
                     <div class="col-lg-2 col-md-2 text-center hidden-xs">
                         <div class="bar__module">
-                            <a href="index.html" id="logoCenter">
+                            <a href="index.html"  id="logoCenter">
                                 <img class="logo logo-dark" alt="logo" src="img/iosd/IOSD-logo.png" />
                             </a>
                         </div>
@@ -170,6 +184,7 @@ master-->
             <!--end of container-->
         </nav>
     </div>
+</div>
     <div class="main-container">
 
         <section class="imagebg videobg height-100 text-center" data-overlay="4">
