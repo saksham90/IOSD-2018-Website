@@ -9,6 +9,10 @@
   margin-top: 5%;
   line-height: 2.5em;
 }
+#size-1{
+  width: 70%;
+  height: 90%
+}
 /*@media (min-width : 767px){
   #size{
     margin-left: 18 !important;
@@ -19,7 +23,7 @@
 	border-radius:15px 15px 15px !important;
 }
 .container {
-	border-radius:15px 15px 15px !important;	
+	border-radius:15px 15px 15px !important;
 }
 
 
@@ -45,3 +49,6 @@ background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB) !important; /* W
 
 }
 /* form canvas on Create student chapter page  end*/
+.text-align{
+  text-align: justify;
+}
